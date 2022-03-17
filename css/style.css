@@ -901,3 +901,48 @@ white-space: nowrap;
     margin-top: 250px;
   }
 }
+.case-image{
+  margin-top: 50px;
+  width:100%;
+  height:auto;
+}
+.case-text{
+  text-align: justify;
+  }
+.subtitle{
+    font-weight:400;
+    font-size: 18px;
+  }
+  h3{
+    font-weight: 500;
+  }
+  .image-server{
+    float:left;
+    width: 63%;
+    margin-right:20px;
+    margin-bottom: 10px;
+  }
+  .image-client{
+    float:right;
+    width: 45%;
+    margin-left:20px;
+    margin-bottom: 10px;
+  }
+  .image-client-bottom{
+    float:none;
+    width: 45%;
+    margin-left:20px;
+  }
+  .endpoints{
+    font-weight: 300;
+  }
+  .overview{
+    margin: 0px;
+    padding: 0%;
+    background-image: linear-gradient(to right,#EFEFEF,#FFE8E8);
+  }
+  .approach{
+    margin: 0px;
+    padding: 0%;
+    background-image: linear-gradient(to right,#FFE8E8,#EFEFEF);
+  }

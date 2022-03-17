@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nikki Shah, Web Developer</title>
+  <link rel="shortcut icon" type="image/svg" href="img/favicon.png">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/58b03ec2b5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header id="navbar">
+    <div class="header">
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html">
+          <img src="img/Logo.jpg" class="logo" alt="My logo">
+        </a>
+        <nav>
+          <ul>
+            <li><a href="index.html" onclick="menuToggle()">Home</a></li>
+            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+  <main>
+
+    <div class="hello">
+      <div class="container">
+        <p class="intro swipe-right"><strong>Case Study for</strong>
+        </p>
+        <div class="swipe-left">
+          <h1 class="mob-sml name">NiliFlix - Angular Project</h1>
+        </div>
+      </div>
+    </div>
+        <div class="container line">
+          <div class="section content" id="profile">
+            <div class="overview">
+                <div class="dark case-text">
+                  <br><br><br>
+                  <h3>Overview</h3>
+                      <p>Using Angular, build the client-side for an application called NiliFlix that allows
+                        authorized users to access a list of movies. Users also can create an account, update
+                        their information, and add/remove a movie to their favorite movie list.</p>
+                  <h3>Purpose & Context</h3>
+                      <p>NiliFlix was a personal project that I built as a part of my web development course at
+                        CareerFoundry to practice with Angular and TypeScript.</p>
+                  <h3>Objective</h3>
+                      <p>The goal was to build a single-page, responsive movie app with Angular. The problem that I
+                        wanted to solve was to build an alternative client-side for the Niliflix application that allows
+                        users to use the app whenever they want and on any device and have an equivalent experience.</p>
+                </div>
+                <div class="case-image">
+                  <img src="img/case study/niliflixang.png" alt="niliflix">
+                </div>
+              </div>
+            <!--Approach-->
+            <div>
+              <div id="my-story" class="approach">
+                <div class="dark case-text">
+                  <br><br>
+                  <h3>Approach</h3>
+                  <ol class="dark">
+                      <li> <h4 class="subtitle">Server-Side</h4>
+                              <p>
+                                <img class="image-server"src="img/case study/mongo.png" alt="MongoDB">
+                                <img class="image-server"src="img/case study/postman.png" alt="postman">
+                                The server-side includes the server, business logic, and business layers of the application.
+                                MongoDB is a non-relational document model, which was the best option for my movie app project. I picked it for my database and used JavaScript, Node.js, and Express to interact with it.
+                                My well-designed REST API can be accessed via HTTP methods like GET,POST, PUT, and Delete.
+                                Similar methods, CRUD, were used to retrieve data from the database and store the data in a non-relational way.
+                                Postman is an excellent choice for testing the REST API manually. That’s why I chose it to simulate server-request and the result.
+                                </p>
+                                <a class="endpoints" href="https://github.com/nikki-shahh/NiliFlix#endpoints-for-rest-api" target="_blank">(Click here to see the endpoints)</a>
+                      </li><br><br>
+                      <li> <h4 class="subtitle">Client-Side</h4>
+                              <p>
+                                <img class="image-client"src="img/case study/niliflixprofile.png" alt="profile">
+                              I started to build the user interface for making requests and receiving responses from the server-side. It is a single-page,
+                                responsive application developed with Angular and Angular Material. It provides several interface views, including
+                                the movies’ view, profile view, edit profile view, favorite movie view, login view, and registration. In detail,
+                                user stories will be:</p>
+                                <ul>
+                                  <li>Users can register and make a new account through the welcome view.</li>
+                                  <li>Users can log in to their accounts.</li>
+                                  <li>Authorized users can see a list of movies.</li>
+                                  <li>Users can click on a movie and see the description of the movie, Actors, Director, Genre, Rate, and Release year.</li>
+                                  <li>Users can add/remove a movie from their favorite list.</li>
+                                  <li>Users can edit /update their information.</li>
+                                  <li>Users can deregister.</li>
+                                  <img class="image-client-bottom"src="img/case study/niliflixlogin.png" alt="login">
+                                  <img class="image-client-bottom"src="img/case study/niliflixupdate.png" alt="edit">
+                                </p>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <!--Approach-->
+            <!--Challenges-->
+            <div class="overview">
+                <div class="dark case-text">
+                  <br><br><br>
+                  <h3>Challenges</h3>
+                  <p>Working on this project was fun and challenging at the same time. TypeScript and Angular were new to me
+                  and different from React and React-Redux, which I had more experience in. I spent some time understanding
+                  how TypeScript and Angular work and getting the desired results. I overcame this challenge by studying some
+                  online resources and having a couple of calls with my great mentor.</p>
+                  <p>Working on this project took some days longer than usual but helped me understand this
+                  framework and programming language better, and it turned out to be a fun experience.</p>
+                </div>
+                <br><br>
+              <h3>Credits</h3>
+                <ul>
+                 <li>Role: Lead Developer</li>
+                 <li>Mentor: Sebastien Filion</li>
+                 <ul>
+              </div>
+              <!--Challenges-->
+          </div>
+        </div>
+  </main>
+
+  <footer id="contact">
+    <div class="container contact">
+      <h2 class="light">Contact me</h2>
+      <div class="contact">
+        <ul>
+          <li><a href="mailto:nikki.shh87@gmail.com" class="button contact">Email</a></li>
+          <li> <a href="https://www.linkedin.com/in/nikki-shahh/" class="button contact"
+              target="_blank">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div class="email">
+        <p>nikki.shh87(at)gmail(dot)com</p>
+      </div>
+      <p id="copyright">© Nikki Shah <span id="year"></span>
+      </p>
+    </div><!-- End of footer container -->
+  </footer>
+</body>
+
+</html>
